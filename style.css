@@ -30,9 +30,31 @@ button {
     background-color: rgb(122, 125, 128);
     border: none;
     color: azure;
-    font-size: 46px;
+    font-size: 44px;
     width: 50px;
     height: 50px;
     border-radius: 25px;
     margin: 4px;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+#clear {
+    width: 100%;
+    background-color: blueviolet;
+    font-size: 30px;
+}
+
+#equals {
+    background-color: red;
+}
+
+#equals:hover {
+    background-color: brown;
+}
+
+#clear:hover {
+    background-color: rgb(167, 117, 214);
 }
